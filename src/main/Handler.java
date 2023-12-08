@@ -4,39 +4,39 @@ import input.KeyManager;
 import input.MouseManager;
 
 public class Handler {
-	private MouseManager mouseManager;
-	private KeyManager keyManager;
-	private Window window;
-	
-	public Handler(Window window, MouseManager mouseManager, KeyManager keyManager){
-		this.window = window;
-		this.mouseManager = mouseManager;
-		this.keyManager = keyManager;
-	}
 
-	public MouseManager getMouseManager() {
-		return mouseManager;
-	}
+    private MouseManager mouseManager;
+    private KeyManager keyManager;
+    private Window window;
 
-	public void setMouseManager(MouseManager mouseManager) {
-		this.mouseManager = mouseManager;
-	}
+    public Handler(Window window, MouseManager mouseManager, KeyManager keyManager) {
+        this.window = window;
+        this.mouseManager = mouseManager;
+        this.keyManager = keyManager;
+    }
 
-	public KeyManager getKeyManager() {
-		return keyManager;
-	}
+    public MouseManager getMouseManager() {
+        return mouseManager;
+    }
 
-	public void setKeyManager(KeyManager keyManager) {
-		this.keyManager = keyManager;
-	}
+    public void setMouseManager(MouseManager mouseManager) {
+        this.mouseManager = mouseManager;
+    }
 
-	public Window getWindow() {
-		return window;
-	}
+    public KeyManager getKeyManager() {
+        return keyManager;
+    }
 
-	public void setWindow(Window window) {
-		this.window = window;
-	}
-	
-	
+    public void setKeyManager(KeyManager keyManager) {
+        this.keyManager = keyManager;
+    }
+
+    public Window getWindow() {
+        return window;
+    }
+
+    public void setWindow(Window window) {
+        this.window = window;
+    }
+
 }
